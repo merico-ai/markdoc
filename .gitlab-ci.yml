@@ -1,4 +1,4 @@
-image: node:14.19
+image: node:24.22.1
 
 workflow:
   rules:

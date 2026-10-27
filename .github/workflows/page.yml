@@ -34,7 +34,7 @@ jobs:
       - name: Prepare
         uses: actions/setup-node@v3
         with:
-          node-version: 14.19
+          node-version-file: '.nvmrc'
           cache: 'npm'
       - name: Install
         run: npm ci
